@@ -65,7 +65,7 @@
 			icon = [EF 86 91];
 			bindings = <&trans &trans>;
 			sensor-bindings = <&inc_dec_mw MW_UP(1) MW_DN(1)>;
-			profile = <&profile-inertia>;
+			profile = <&profile_inertia>;
 		};
 
 		tasks {
