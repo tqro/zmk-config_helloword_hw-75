@@ -61,11 +61,11 @@
 		};
 
 		scroll_wuji {
-			label = "PC";
-			icon = [EF 86 90];
+			label = "502";
+			icon = [EF 86 91];
 			bindings = <&trans &trans>;
 			sensor-bindings = <&inc_dec_mw MW_UP(1) MW_DN(1)>;
-			profile = <&profile_spring>;
+			profile = <&profile-inertia>;
 		};
 
 		tasks {
