@@ -59,6 +59,12 @@
 			bindings = <&trans &trans>;
 			sensor-bindings = <&inc_dec_mw MW_UP(1) MW_DN(1)>;
 		};
+		scroll_wuji {
+			label = "无极";
+			icon = [EF 86 93];
+			bindings = <&trans &trans>;
+			sensor-bindings = <&inc_dec_mw MW_UP(1) MW_DN(1)>;
+		};
 
 		tasks {
 			label = "窗口";
@@ -79,7 +85,4 @@
 			label = "左右";
 			icon = [EF 86 9C];
 			bindings = <&trans &trans>;
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
-		};
-	};
-};
+			sensor-bindings = <&inc_dec_kp LEFT 
