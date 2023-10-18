@@ -74,13 +74,6 @@
 			profile = <&profile_spring>;
 		};
 
-		arrow_vertical {
-			label = "上下";
-			icon = [EF 86 93];
-			bindings = <&trans &trans>;
-			sensor-bindings = <&inc_dec_kp UP DOWN>;
-		};
-
 		arrow_horizontal {
 			label = "左右";
 			icon = [EF 86 9C];
